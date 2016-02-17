@@ -27,6 +27,10 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
+  <rootModule>
+    <groupId>lib.common</groupId>
+    <artifactId>lib-common</artifactId>
+  </rootModule>
   <goals>-Dmaven.test.skip=true clean deploy</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
