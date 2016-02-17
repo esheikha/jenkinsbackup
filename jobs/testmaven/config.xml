@@ -44,7 +44,9 @@
   <runHeadless>false</runHeadless>
   <disableTriggerDownstreamProjects>false</disableTriggerDownstreamProjects>
   <blockTriggerWhenBuilding>true</blockTriggerWhenBuilding>
-  <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+  <settings class="org.jenkinsci.plugins.configfiles.maven.job.MvnSettingsProvider" plugin="config-file-provider@2.10.0">
+    <settingsConfigId>01603ca2-a7e8-4088-bc02-18b5c989695e</settingsConfigId>
+  </settings>
   <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
   <reporters/>
   <publishers/>
