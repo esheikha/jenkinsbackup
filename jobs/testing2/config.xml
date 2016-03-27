@@ -34,7 +34,7 @@
 sonar.projectName=External Apps project
 sonar.projectVersion=1.0
 sonar.sources=.
-sonar.language=json</properties>
+sonar.language=c/c++</properties>
       <javaOpts></javaOpts>
       <additionalArguments></additionalArguments>
       <jdk>(Inherit From Job)</jdk>
