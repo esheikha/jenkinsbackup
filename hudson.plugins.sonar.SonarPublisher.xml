@@ -6,8 +6,8 @@
       <disabled>false</disabled>
       <serverUrl>http://127.0.0.1:9000</serverUrl>
       <mojoVersion></mojoVersion>
-      <databaseUrl></databaseUrl>
-      <databaseLogin></databaseLogin>
+      <databaseUrl>jdbc:mysql://localhost:3306/sonar?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8</databaseUrl>
+      <databaseLogin>sonar123</databaseLogin>
       <additionalProperties></additionalProperties>
       <additionalAnalysisProperties></additionalAnalysisProperties>
       <triggers>
@@ -16,7 +16,7 @@
         <envVar></envVar>
       </triggers>
       <sonarLogin>admin</sonarLogin>
-      <databaseSecret>4Ovp92Rio0so35cWoCXJhQ==</databaseSecret>
+      <databaseSecret>Zwyz7F0Q/5cyDfNwAve2+5J0ACPvkpx+LIwFzKgnNac=</databaseSecret>
       <sonarSecret>1fpRddJLzbz724aHPKM/uDy9Azpzqd+KjRTlbxlbh7o=</sonarSecret>
     </hudson.plugins.sonar.SonarInstallation>
   </installations>
