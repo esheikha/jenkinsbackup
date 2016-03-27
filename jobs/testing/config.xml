@@ -30,7 +30,10 @@
   <builders>
     <hudson.plugins.sonar.SonarRunnerBuilder plugin="sonar@2.3">
       <project></project>
-      <properties></properties>
+      <properties>sonar.projectKey=my:project
+sonar.projectName=My project
+sonar.projectVersion=1.0
+</properties>
       <javaOpts></javaOpts>
       <additionalArguments></additionalArguments>
       <jdk>(Inherit From Job)</jdk>
